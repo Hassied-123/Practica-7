@@ -1,0 +1,62 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+ul{
+    list-style: none; /*estilos de la lista*/
+}
+ul li{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*Tipo de letra*/
+}
+body {
+    background-color: #a5ff8fd1;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 22px; /*Tamaño de letra*/
+    height: 60px; /*Altura de cado opcion de la lista*/
+}
+ul li a{
+    height: 60px; /*Altura*/
+    background-color: rgb(242, 228, 167); /*color de fondo*/
+    display: block;
+    border-left: 10px solid rgba(52, 62, 255, 0.832);
+    border-right: 5px solid rgb(243, 0, 0);
+    padding-left: 15px; /*Separacion izquierda del texto*/
+    text-decoration: none;
+    color: #090606;
+}
+ul li a:hover{
+    margin-left: 10px; /*Separacion de lado izquierdo*/
+    color: rgb(164, 164, 164); /*color de letra*/
+    background-color: black; /*Color de fondo*/
+    box-shadow: 10px 10px 20px  #000; /*sombra*/
+    transform: rotate(4deg); /*Movimiento de rotacion*/
+    -moz-transform: rotate(4deg);
+    -webkit-transform: rotate(4deg);
+}
+td{
+    vertical-align: top;
+}
+
+td{
+    vertical-align: text-top;
+}
+ul{
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: rgb(2, 2, 3)153);
+}
+div {
+    color: #080507;
+    height: 100%;
+    height: 100%;
+    padding: 20px 10px 20px 40px;
+    margin: 10px;
+    border: 1px solid #7e94d47e;
+    background-color: #b8b8b8;
+    border-radius: 15px;
+    border: solid 2px #020802;
+    border-radius: 15px 0px 15px 0px;
+    box-shadow: 2px 2px 5px #C0C2C3;
+}
